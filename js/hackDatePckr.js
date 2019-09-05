@@ -1,0 +1,20 @@
+{
+    key: "_handleCalendarClick",
+        value: function(t) {
+            if (this.isOpen) {
+                var e = g(t.target);
+                e.hasClass("is-disabled") ||
+                    (!e.hasClass("datepicker-day-button") ||
+                        e.hasClass("is-empty") ||
+
+                        e.parent().hasClass("is-disabled") ?
+                        e.closest(".month-prev").length ? this.prevMonth() :
+                            e.closest(".month-next").length && this.nextMonth() :
+                        (this.setDate(new Date(
+                            t.target.getAttribute("data-year"),
+                            t.target.getAttribute("data-month"),
+                            t.target.getAttribute("data-day"))
+                        ), this.options.autoClose && this._finishSelection()))
+            }
+        }
+}
