@@ -1,0 +1,225 @@
+/****  Splash Page  ****/
+/****  Splash Page  ****/
+
+#splash-but {
+    position:absolute; 
+    top:370px; 
+    z-index: 999; 
+    left:45px; 
+    font-size: 20px; 
+    padding: 7px 50px; 
+    font-weight: 300;
+    color:rgb(255, 255, 255); 
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+
+.iContainer {
+    background-image: url('../images/splash2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(.8);
+    font-size: 38px;
+    height: 600px;  
+}
+
+.iOverlay  {
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 50px; 
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+/****  Home Page  ****/
+/****  Home Page  ****/
+.navbar-home .fa-search {  
+    margin-top: 0px;
+    padding-top: 0px; 
+    margin-right: 15px; margin-left:0px;
+    color:white; 
+    font-size:25px !important; 
+}
+
+
+
+.navbar-home .fa-bars {  
+    margin-top: 0px;
+    padding-top: 0px; 
+    margin: 0px;
+    color:white; 
+    font-size:25px !important; 
+}
+
+.slide .intro-caption h2 {
+    color:white !important;
+    font-size: 2em !important;
+    font-family: Lato;
+    letter-spacing: 1px;
+}
+
+.navbar-home h1 {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500 !important;  
+}
+
+.material-icons {
+    font-size: 45px !important;
+    font-size: 44px !important; 
+    color: rgb(255, 255, 255) !important;
+}
+
+.product .content img { /* images */
+    border-radius: 10px 10px 0px 0px !important;
+    padding: 0px !important;
+}
+.product .content {
+    border-radius: 10px 10px 0px 0px !important;
+    padding: 0px !important;
+}
+.product .content a > p {
+    padding: 0px 10px !important;
+    color: blue !important;
+}
+.segments {
+    padding: 0px 0px 30px 0px !important;
+}
+
+
+.sidebar-panel .row .labels {
+    margin-top: 1em;
+}
+
+.sidebar-panel .row .has-car {
+    margin-top: 3px;
+}
+
+.sidebar-panel .row span {
+    font-size: 16px;
+    color: black;
+}
+
+input {
+    color: blue !important;
+}
+
+
+/* .switch label .lever:after {} */
+
+input[type=checkbox]:checked+.lever:after {
+    background-color: blue !important;
+}
+input[type=checkbox]:checked+.lever {
+    background-color: #c1c1c1 !important;
+}
+
+
+.content div .switch .lever {
+    color: red;
+    background-color: green; 
+}
+
+
+
+/***  Message Page  ****/
+/***  Message Page  ****/
+/***  Message Page  ****/
+.chat-list , img:nth-child(1) {
+    border-radius:0px !important;
+    /* width: 50px !important; */
+    /* height: 50px !important; */
+}
+
+.striped-table  td:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ 
+
+/***  Services Page  ****/
+/***  Services Page  ****/
+/***  Services Page  ****/
+/* .navbar-pages .fa-sign-out, 
+.fa-sign-out, .fa-user-edit,
+.fa-plus, .fa-th, .fa-save,
+.navbar-pages .fa-sign-out-alt,
+.navbar-pages .material-icons { */
+.navbar-icon-right {
+    color: white;
+    position: absolute !important;
+    font-size: 30px;
+    right: 5px !important;
+}
+
+.services .content i {
+    font-size: 20px !important;
+    color: rgb(255, 255, 255) !important; 
+}
+
+/* body > div.services.segments-page > div > div:nth-child(3) >  */
+#bbaaddggee {
+    color:white; background:green; font-size:15px; padding:3px; top:-75px; right:-15px;
+}
+
+.services .modal-page p {
+    color: blue;
+}
+
+.services .row div  .info-faq {
+    background-color: #00800048 !important; 
+    color: #3e11e4;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+/* #logOut > div > div > div:nth-child(2) > div { */
+ .logout {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    background-color: #ffffff !important;
+}
+
+.services  h4 {
+    color: rgb(14, 14, 14) !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/***  Settings Page  ****/
+/***  Settings Page  ****/
+/***  Settings Page  ****/
+.segments-page .wrap-title h5 {
+    color:  teal;
+}
+
+.segments-page .row input {
+    margin-top: -12px;
+    padding: 0px;
+}
+
+
+/* footer */
+footer  h1 {
+    padding-top: 30px !important;
+
+}
+
+
+/* About Page */
+/* About Page */
+/* About Page */
+.collapsible .collapsible-header {
+    background-color: aqua !important;
+}
+
+
+
